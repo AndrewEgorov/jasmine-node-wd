@@ -1,5 +1,5 @@
 {
-  "name": "jasmine-node",
+  "name": "jasmine-node-wd",
   "version": "1.14.5",
   "description": "DOM-less simple JavaScript BDD testing framework for Node",
   "contributors": [
