@@ -3,21 +3,16 @@
   "version": "1.14.5",
   "description": "DOM-less simple JavaScript BDD testing framework for Node",
   "contributors": [
-    "Chris Moultrie <chris@moultrie.org>"
+    "Andrew Egorov"
   ],
-  "homepage": "https://github.com/mhevery/jasmine-node",
+  "homepage": "https://github.com/AndrewEgorov/jasmine-node-wd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhevery/jasmine-node.git"
+    "url": "https://github.com/AndrewEgorov/jasmine-node-wd.git"
   },
   "keywords": [
     "testing",
     "bdd"
-  ],
-  "author": "Misko Hevery <misko@hevery.com>",
-  "maintainers": [
-    "Martin Häger <martin.haeger@gmail.com>",
-    "Chris Moultrie <chris@moultrie.org>"
   ],
   "licenses": [
     "MIT"
@@ -32,12 +27,5 @@
     "gaze": "~0.3.2",
     "mkdirp": "~0.3.5",
     "selenium-webdriver": "^2.42.1"
-  },
-  "bin": "bin/jasmine-node",
-  "preferGlobal": true,
-  "main": "lib/jasmine-node/main.js",
-  "scripts": {
-    "test": "node lib/jasmine-node/cli.js spec"
-  },
-  "devDependencies": {}
+  }
 }
